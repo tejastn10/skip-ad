@@ -1,0 +1,3 @@
+Based on the Skip ad extension from PAvel Bucka
+
+github : "https://github.com/penge/skip-ad"
