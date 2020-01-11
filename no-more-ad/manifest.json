@@ -3,5 +3,11 @@
   "name": "No more Ad",
   "description": "Skips Youtube Ads.",
   "version": "1.0",
-  "icons": { "128": "icon128.png" }
+  "icons": { "128": "icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["youtube.js"]
+    }
+  ]
 }
